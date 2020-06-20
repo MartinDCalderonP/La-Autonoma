@@ -1,0 +1,82 @@
+.nota:hover{
+    background-color: var(--colordefondo);
+}
+
+.seccionyfecha{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: solid 3px;
+    border-color: rgba(255, 0, 0, 0.705);
+}
+
+h2{
+    padding: 10px 0px;
+}
+
+.autoria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.autoria>.iconera, figure{
+    margin: 0px;
+}
+
+.imgyepigrafe{
+    padding: 10px 0px;
+}
+
+.epigrafe{
+    position: relative;
+    background:rgba(255, 0, 0, 0.377);
+    font-size: 11px;
+}
+
+.parrafos{
+    margin: 20px 5px;
+    font-size: 17px;
+}
+
+.parrafos>p{
+    padding-bottom: 30px;
+}
+
+.parrafos>p>a{
+    color:rgba(255, 0, 0, 0.705) !important;
+}
+
+.capitaleado::first-letter{
+    float: left;
+    color: rgba(255, 0, 0, 0.705);
+    font-size: 400%;
+}
+
+.rompedor{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.compartidor{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-color: rgba(255, 0, 0, 0.705);
+}
+
+.compartidor>.iconera{
+    margin: 0px;
+}
+
+@media (min-width: 768px){
+    h4{
+        overflow-wrap: break-word;
+    }
+}

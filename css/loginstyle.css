@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+
+form{
+    border: 3px solid red;
+}
+
+form>.btn-outline-danger{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    margin: 10px;
+}
+
+#username, #password{
+    color: black !important;
+}

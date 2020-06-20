@@ -1,0 +1,5 @@
+﻿Falta:
+- Cotización del Dólar en Anunciador.
+- Tasa de Interés de Referencia en Anunciador.
+- Clima en Anunciador.
+- L&D Mode automático.

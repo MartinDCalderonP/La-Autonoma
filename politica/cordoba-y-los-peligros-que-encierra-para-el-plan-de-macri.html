@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Autónoma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/notastyle.css">
+    <link id="favicon" rel="icon" type="image/png" sizes="16x16" href="/img/favicon light-16x16.png">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.3"></script>
+    
+    <header>
+        <div>
+            <nav class="navbar navbar-light fixed-top">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" onclick="sidenav()">
+                    <div class="animado"><span></span><span></span><span></span><span></span></div>
+                </button>
+
+                <a class="navbar-brand" href="/index.html"><h1>La Autónoma</h1></a>
+
+                <div class="navbuttons">
+                    <button id="login" type="button" class="btn btn-outline-danger"><a href="/login.html">Iniciar Sesión</a></button>
+                    <button id="register" type="button" class="btn btn-outline-danger"><a href="/register.html">Registrarse</a></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id= "sn" class="sidenav">
+            <ul class="navbar-nav">
+                <li class="nav-item sidebuttons"><a class="nav-link" href="/login.html">Iniciar Sesión</a></li>
+                <li class="nav-item sidebuttons"><a class="nav-link" href="/register.html">Registrarse</a></li>
+                <li class="nav-item">
+                    <div class="theme-switch-wrapper">
+                        Tema:
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
+                    </li>
+                <li class="nav-item"><a class="nav-link" href="/seccion/politica.html">Política</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Economía</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sindical</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Internacional</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sociedad</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cultura</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Educación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Arquitectura</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Ciencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tecnología</a></li>
+            </ul>
+
+            <form class="form-block" method="get" action="http://www.google.com/search">
+                <div class="input-group search-group">
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar" name="q" results="5"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                    <input type="hidden" name="sitesearch" value="https://laautonoma.000webhostapp.com/index.html">
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="nota">
+                        <div class="seccionyfecha">
+                            <p><a href="/seccion/politica.html">Política</a></p>
+                            <p>23 de Mayo de 2019</p>
+                        </div>
+
+                        <h2>Córdoba y los peligros que encierra para el plan de Macri</h2>
+                        
+                        <div class="autoria">
+                            <h6><a href="/autor/pagni-carlos.html">Por Carlos Pagni</a></h6>
+
+                            <div class="iconera">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter-square"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="imgyepigrafe">
+                            <figure>
+                                <img src="/img/noticia-principal.jpg" width='100%' height='100%'/>
+                            </figure>
+
+                            <div class="epigrafe">
+                                <p>Mauricio Macri, Hipólito Yrigoyen y Roberto Lavagna. Fuente: La Nación. Crédito: Alfredo Sabat.</p>
+                            </div>
+                        </div>
+
+                        <div class="parrafos">
+                            <p class="capitaleado">Desde el fusilamiento del líder de la Contrarrevolución de Mayo, Santiago de Liniers, Córdoba ha tenido un papel decisivo en la historia nacional. ¿Volverá a tenerlo a partir del domingo próximo? Ese día elegirá al nuevo gobernador. El resultado es previsible. <a href="">Juan Schiaretti</a> hará una gran elección y permanecerá en el poder otros cuatro años. Las consecuencias de ese desenlace son menos claras.</p>
+
+                            <p>Las que se proyectan sobre el peronismo y, sobre todo, las que afectarán a Cambiemos . Mauricio Macri leerá ese episodio a la luz de su principal preocupación: cómo estabilizar su candidatura a la reelección . Todas sus iniciativas de los últimos días persiguen ese objetivo. Debe disuadir a sus propios seguidores de que existe una estrategia más eficaz que su propia continuidad para impedir la restauración del kirchnerismo. Ese plan se sigue debatiendo en el oficialismo. Quien lo formuló de manera más completa fue el presidente del radicalismo, Alfredo Cornejo. Pero, a diferencia de la reelección del Presidente, carece de un factor indispensable: la voluntad de poder de un líder que lo ponga en práctica.</p>
+
+                            <p>Los principales protagonistas dan por descontados los rasgos sobresalientes de los comicios cordobeses. Es difícil encontrar un gobernador con la potencia con que emergerá Schiaretti de las urnas. Los encuestadores discuten si su triunfo superará o no el de José Manuel de la Sota en 2003: 51,84%. Lograrlo sería una hazaña: el oficialismo provincial buscará el próximo domingo el quinto triunfo consecutivo desde 1998.</p>
+
+                            <p>Schiaretti se acercará a los dos tercios en la Legislatura. Y su fuerza controlará las seis municipalidades más importantes de la provincia: Río Cuarto, Villa María, San Francisco, Carlos Paz, Alta Gracia y, lo que es crucial, Córdoba. Al frente de esas comunas quedarán dirigentes que no superan los 50 años de edad. La captura de la capital de la provincia tiene consecuencias estratégicas. Será la primera vez, desde el alto imperio angelocista, que el gobernador y el intendente serán del mismo partido. No sucedía desde la dupla Eduardo Angeloz-Rubén Martí.</p>
+
+                            <div class="rompedor">«Los encuestadores discuten si su triunfo superará o no el de José Manuel de la Sota en 2003: 51,84%»</div>
+
+                            <p>Macri, que fue un mimado electoral de los cordobeses, ha sido un colaborador indispensable de la apoteosis de Schiaretti. Le condonó la voluminosa deuda de la empresa eléctrica y de la caja de previsión. Concedió todos los avales requeridos para tomar deuda en el mercado externo. Y fue un lobista hiperactivo para que el gobernador financiara la red troncal de gas que tenderían, entre otras, Odebrecht y Iecsa, la empresa de su primo Ángelo Calcaterra. Además, el gobierno nacional aportó fondos para la renovación del aeropuerto y la circunvalación de la capital, y para la ruta Córdoba-Río Cuarto.</p>
+
+                            <p>Schiaretti se benefició con ese federalismo extremo que Macri practicó en Córdoba. Y gozó de otras dos ventajas. La muerte de su rival interno, De la Sota, y la división de sus opositores. La Casa Rosada y Horacio Rodríguez Larreta delegaron en Elisa Carrió una estrategia cordobesa que terminó con la fractura de Cambiemos. Mario Negri y Ramón Mestre, los radicales que disputan la gobernación, competirán el domingo por el segundo lugar. Esa división se trasladó a la pelea entre Rodrigo de Loredo y Luis Juez por la capital, para alegría del peronista Martín Llaryora, el favorito para quedarse con la plaza que domina hoy, con Mestre, la UCR. Los radicales perderán, casi con seguridad, la segunda ciudad del país.</p>
+
+                            <p>Las novedades cordobesas impactarán en el tablero nacional. Schiaretti nacionalizará su éxito presentándolo como una derrota de María Eugenia Vidal, Rodríguez Larreta y Carrió. Desde esa plataforma se fortalecerá el domingo como un primus inter pares del peronismo no kirchnerista. Es difícil, aun así, imaginarlo como un líder nacional. Pero será un ordenador para ese bloque. Macri ya abrió una línea de diálogo con él. Se conocen desde que su padre fabricaba autos con Sevel y el gobernador era secretario de Industria de Carlos Menem. Esta genealogía, ligada a Domingo Cavallo, se prolonga en una gran afinidad con la Fundación Mediterránea, donde muchas empresas esperan que el gobernador influya sobre la discusión económica nacional. La afinidad prehistórica de Macri con Schiaretti contrasta con la discordia con los Mestre: cuando actuaba en Socma, el Presidente peleó a brazo partido con Ramón Mestre padre por contratos de servicios en la ciudad de Córdoba.</p>
+
+                            <p>El otro efecto importante de estas elecciones provinciales se registrará en el oficialismo nacional. Mestre controlará un grupo de delegados revoltosos en la convención de la UCR que se celebraría el próximo 24, o el 27, en Parque Norte. Esa asamblea debe definir la inclusión del partido dentro de Cambiemos. Es decir, la relación de los radicales con Macri. Las deliberaciones serán conducidas por Jorge Sappia, un cordobés promovido por Mestre. El estado de ánimo de los convencionales que lleguen desde Córdoba se puede potenciar con el malhumor de los pampeanos si el 19 el radical Leandro Altolaguirre no retiene la intendencia de Santa Rosa. El partido llega también herido por el infortunio en las primarias de Santa Fe. José Corral tuvo un traspié en la capital, donde gobierna.</p>
+
+                            <div class="rompedor">«La afinidad prehistórica de Macri con Schiaretti contrasta con la discordia con los Mestre: cuando actuaba en Socma, el Presidente peleó a brazo partido con Ramón Mestre padre por contratos de servicios en la ciudad de Córdoba»</div>
+
+                            <p>La posibilidad de este panorama depresivo, donde la UCR pierde ciudades que hoy controla, amenaza al Gobierno con reanimar el debate sobre la competitividad electoral de Macri. Cambiemos se formó para dotar de un vehículo al 46% que había votado contra Cristina Kirchner en 2011. Sus socios se unieron alrededor de una regla: se sigue al que está mejor en las encuestas .</p>
+
+                            <p>La encrucijada actual, con su mortificante crisis económica, inspira dos preguntas. ¿Macri sigue siendo el candidato más adecuado para garantizar el triunfo? En este marco aparece la propuesta de una candidatura de Vidal, que supera al Presidente en todos los sondeos. El otro interrogante es más amplio: ¿alcanza Cambiemos para derrotar al kirchnerismo? Muchos dirigentes de esa coalición creen que no. Y proponen estrategias alternativas. El más explícito ha sido el mendocino Cornejo, presidente de la UCR. Él defiende la realización de una primaria en la que intervengan todos los candidatos no kirchneristas. Cree que esa coalición generaría, desde su propia constitución, una mayoría parlamentaria. Y que apenas se organice la contienda la expectativa de los mercados tendrá una notoria mejoría. Para Cornejo, quien resulte vencedor de la disputa está casi condenado a ganar la presidencia en primera vuelta, sin necesidad de ballottage. Es posible que la convención radical apruebe esta hoja de ruta y designe a una comisión para gestionarla. La principal dificultad de esta receta es que los dirigentes ajenos a Cambiemos la admiten con una condición: que el candidato oficialista no sea Macri. "Él debería tener la magnanimidad de pensar en el país y trabajar para el triunfo del candidato de su partido en este nuevo frente", dice un peronista que participa de la idea.</p>
+
+                            <p>Desde la provincia de Buenos Aires se ensaya un plan similar: que se constituya una gran alianza detrás de una fórmula Lavagna/Lousteau, con Vidal y Larreta como candidatos a la reelección en sus distritos. A partir de ese núcleo se invitaría a varios peronistas, encabezados por Schiaretti, a sumarse. "Basta con que se exhiba esta fuerza para que Cristina renuncie a su candidatura", apuesta uno de los ideólogos del experimento.</p>
+
+                            <p>Con independencia de su eficacia final, estas martingalas carecen de un dispositivo indispensable: en Cambiemos no ha aparecido nadie con una voluntad de poder superior a la de Macri. Arrebatarle la candidatura es más difícil que sacarle la tabla a un náufrago. Él sostiene que si renuncia a ella todo el oficialismo sucumbirá a una embestida kirchnerista que haría peligrar la terminación de su mandato. Es curioso: igual que quienes lo desafían, Macri reivindica sus pretensiones "pensando en el país".</p>
+
+                            <div class="rompedor">«"Él (Macri) debería tener la magnanimidad de pensar en el país y trabajar para el triunfo del candidato de su partido en este nuevo frente", dice un peronista que participa de la idea»</div>
+
+                            <p>La Casa Rosada espera que se estabilice el tipo de cambio, que es la variable determinante de la salud electoral del Presidente. Sobre todo evitar que los inversores se tienten con poner a prueba la capacidad del Banco Central para defender una cotización del dólar dentro de la banda. Macri y sus funcionarios confían, para esto, en que la cifra de la inflación de abril será inferior al 4% que se presume. Alrededor de 3,6%. Festejan que algunos fondos de inversión, como Explorador, que lidera Andrew Cummins, hayan recibido en estas horas mandatos de universidades norteamericanas para adquirir acciones de empresas argentinas.</p>
+
+                            <p>Mientras cruza los dedos para que haya calma financiera, Macri pone entre paréntesis viejos dogmas para dejar sin argumentos a quienes lo cuestionan dentro de Cambiemos. ¿Querían atender a los representantes sectoriales? Marcos Peña se hartó de comer con representantes del establishment. ¿Pretendían consideración hacia el radicalismo? El mismo Peña recibe, de a uno, a sus principales dirigentes. Y puntea el listado de delegados a la Convención Nacional. ¿Querían un acuerdo nacional? Ahí está la propuesta de 10 puntos y algo todavía más costoso: llamadas telefónicas de Macri, que incluyeron hasta a Sergio Massa. Dicen que el Presidente ofreció ese sacrificio, como hacía un siglo los antepasados de Peña "por la conversión de Rusia al catolicismo".</p>
+
+                            <p>Con su decálogo, Macri ya consiguió lo que quería. Que la dirigencia opositora deje de hablar de las miserias del presente y se enrede en un debate inconducente. La falta de rigor de su propuesta es tan evidente que entre sus cláusulas aconseja la independencia del Banco Central. ¿Fue un homenaje tardío a Federico Sturzenegger? Él admitió que le impongan otra política monetaria con la subordinación propia de un exdiputado oficialista.</p>
+
+                            <p>La otra pretensión de la jugada es que la señora de Kirchner quede aislada. También se consiguió. Ella contestó la invitación a través de su hijo Máximo, quien ironizó con una contraoferta de cuatro puntos: "Desayuno, almuerzo, merienda y cena para todos los argentinos". La expresidenta seguirá cooperando con la polarización que necesita el Presidente. Hoy concurrirá a "la casa de la oligarquía", ubicada al lado de la "sede del Imperio" que la persigue, para presentar su libro. Espera que, frente a La Rural, la acompañen 40.000 feligreses. Si la meteorología acompaña. Los inversores no saben a qué prestar más atención. Si a ese discurso o a lo que diga Axel Kicillof en Washington, adonde llegó ayer para cumplir con una agenda que culmina con una presentación en el Wilson Center.</p>
+
+                            <p>Esas liturgias tal vez no alcancen para disimular que mañana Ricardo Echegaray llega a su primer juicio oral. Es por perseguir a opositores malversando información de la Afip. La denuncia fue de Alfonso Prat-Gay. Ninguna colaboración del kirchnerismo con Macri es más efectiva que su crónica policial.</p>
+                        </div>
+
+                        <div class="compartidor">
+                            <p>Compartir: </p>
+                            
+                            <div class="iconera">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter-square"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="fb-comments" data-href="http://127.0.0.1:5500/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html" data-width="100%" data-numposts="5" data-colorscheme="dark"></div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="separador">
+                        <h4>Notas Relacionadas</h4>
+                    </div>
+                    
+                    <div class="nota">
+                        <h5><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Córdoba y los peligros que encierra para el plan de Macri</a></h5>
+
+                        <h6><a href="/autor/pagni-carlos.html">Por Carlos Pagni</a></h6>
+                            
+                        <div class="imgycopete">
+                            <figure>
+                                <a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html"><img src="/img/noticia-principal.jpg" width='100%' height='100%' /></a>
+                            </figure>
+        
+                            <div class="elrevelador">
+                                <div class="copete">
+                                    <p><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Desde el fusilamiento del líder de la Contrarrevolución de Mayo, Santiago de Liniers, Córdoba ha tenido un papel decisivo en la historia nacional. ¿Volverá a tenerlo a partir del domingo próximo? Ese día elegirá al nuevo gobernador. El resultado es previsible. Juan Schiaretti hará una gran elección y permanecerá en el poder otros cuatro años. Las consecuencias de ese desenlace son menos claras.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nota">
+                        <h5><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Córdoba y los peligros que encierra para el plan de Macri</a></h5>
+
+                        <h6><a href="/autor/pagni-carlos.html">Por Carlos Pagni</a></h6>
+                            
+                        <div class="imgycopete">
+                            <figure>
+                                <a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html"><img src="/img/noticia-principal.jpg" width='100%' height='100%' /></a>
+                            </figure>
+        
+                            <div class="elrevelador">
+                                <div class="copete">
+                                    <p><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Desde el fusilamiento del líder de la Contrarrevolución de Mayo, Santiago de Liniers, Córdoba ha tenido un papel decisivo en la historia nacional. ¿Volverá a tenerlo a partir del domingo próximo? Ese día elegirá al nuevo gobernador. El resultado es previsible. Juan Schiaretti hará una gran elección y permanecerá en el poder otros cuatro años. Las consecuencias de ese desenlace son menos claras.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nota">
+                        <h5><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Córdoba y los peligros que encierra para el plan de Macri</a></h5>
+
+                        <h6><a href="/autor/pagni-carlos.html">Por Carlos Pagni</a></h6>
+                            
+                        <div class="imgycopete">
+                            <figure>
+                                <a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html"><img src="/img/noticia-principal.jpg" width='100%' height='100%' /></a>
+                            </figure>
+        
+                            <div class="elrevelador">
+                                <div class="copete">
+                                    <p><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Desde el fusilamiento del líder de la Contrarrevolución de Mayo, Santiago de Liniers, Córdoba ha tenido un papel decisivo en la historia nacional. ¿Volverá a tenerlo a partir del domingo próximo? Ese día elegirá al nuevo gobernador. El resultado es previsible. Juan Schiaretti hará una gran elección y permanecerá en el poder otros cuatro años. Las consecuencias de ese desenlace son menos claras.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nota">
+                        <h5><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Córdoba y los peligros que encierra para el plan de Macri</a></h5>
+
+                        <h6><a href="/autor/pagni-carlos.html">Por Carlos Pagni</a></h6>
+                            
+                        <div class="imgycopete">
+                            <figure>
+                                <a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html"><img src="/img/noticia-principal.jpg" width='100%' height='100%' /></a>
+                            </figure>
+        
+                            <div class="elrevelador">
+                                <div class="copete">
+                                    <p><a href="/politica/cordoba-y-los-peligros-que-encierra-para-el-plan-de-macri.html">Desde el fusilamiento del líder de la Contrarrevolución de Mayo, Santiago de Liniers, Córdoba ha tenido un papel decisivo en la historia nacional. ¿Volverá a tenerlo a partir del domingo próximo? Ese día elegirá al nuevo gobernador. El resultado es previsible. Juan Schiaretti hará una gran elección y permanecerá en el poder otros cuatro años. Las consecuencias de ese desenlace son menos claras.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© La Autónoma 2019 - Todos los derechos reservados</p>
+        <div class="iconera">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>Diseñado por M. Calderón</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
