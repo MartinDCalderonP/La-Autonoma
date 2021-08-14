@@ -1,4 +1,4 @@
-# La-Autonoma
+# La Autonoma
 
 Newspaper website. Frontend in Bootstrap, HTML, CSS, Javascript and some jQuery things.
 
